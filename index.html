@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Pinche Weather</title>
+  <link rel="stylesheet" href="css/flag-icon.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body class="body">
+  <main class="weather-app container">
+
+    <div class="row main-title">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h1 class="title">Pinche Weather</h1>
+      </div>
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <form class="getWeatherData">
+          <input type="text" class="weather-city" placeholder="Enter a city.." />
+          <input type="submit" id="button" value="Get Weather">
+          <p class="city-error" style="display:none;">Whoops! Looks like that city doesn't exist, try another one.</p>
+        </form>
+      </div>
+    </div>
+
+
+    <!-- results section -->
+    <div class="row the-city">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 results">
+        <h2 class="results-city"></h2><img class="weather-icon">
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 descriptions">
+        <div class="temperature-container">
+          <span class="temperature-label"><strong>Temperature: </strong></span>
+          <span class="temperature"></span>
+        </div>
+
+        <div class="humidity-container">
+          <span class="humidity-label"><strong>Humidity: </strong></span>
+          <span class="humidity"></span>
+        </div>
+
+        <div class="description-container">
+          <span class="description-label"></span>
+          <span class="description"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row forecast">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 five-forecast-descriptions">
+        <div class="forecast-temperature-container">
+          <span class="forecast-temperature-label"><strong class="forecasts">every 3+ hours</strong></span>
+          <ul class="the-forecast">
+
+          </ul>
+        </div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 forecast-description-container">
+          <span class="forecast-description-label"><strong></strong></span>
+          <span class="forecast-description"></span>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

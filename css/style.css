@@ -1,0 +1,126 @@
+/* Custom CSS goes here */
+
+
+.body{
+  text-align: center;
+  background-color: #F8C7CF;
+  background-repeat: repeat;
+  letter-spacing: .3em;
+}
+
+.main-title {
+  font-family: 'Allerta Stencil', sans-serif;
+  color: rgba(255,255,255,.75);
+  font-size: 15px;
+  margin: 87px;
+  margin-top: 20px;
+  background-color: rgba(149,147,217,.4);
+  box-shadow: 10px 10px 5px rgba(204,221,211,.1);
+  padding: 40px;
+}
+
+h1.title{
+  font-size: 66px;
+  text-shadow: 5px 5px 9px rgba(113,122,122,.4);
+}
+
+.the-city {
+  background-color: rgba(254,147,140,.5);
+  box-shadow: 10px 10px 5px rgba(204,221,211,.1);
+  text-shadow: 5px 5px 9px rgba(113,122,122,.4);
+  padding: 40px;
+}
+
+.five-forecast-descriptions {
+  font-family: 'Allerta Stencil', sans-serif;
+  color: #F8C7CC;
+  font-size: 15px;
+  margin: 0px;
+  margin-top: 50px;
+  background-color: rgba(149,147,217,.4);
+  text-shadow: 5px 5px 9px rgba(113,122,122,.4);
+  box-shadow: 10px 10px 5px rgba(204,221,211,.1);
+  padding: 40px;
+}
+
+h2.results-city {
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 42px;
+  color: rgba(255,255,255,.75);
+  text-shadow: 5px 5px 9px rgba(113,122,122,.4);
+  margin: 0;
+}
+
+form.getWeatherData {
+  margin: 15px;
+}
+
+#button{
+  background-color: rgba(14,15,25,.3); /*black*/
+  color: rgba(255,255,255,.85);
+
+  box-shadow: 5px 5px 9px rgba(113,122,122,.4);
+}
+
+#button:hover {
+  border: .8px solid rgba(255,255,255,.8);
+}
+
+.weather-city {
+  color: rgba(255,255,255,.85);
+  font-family: 'Allerta Stencil', sans-serif;
+  background-color: #F8C7CF;
+  margin: 10px;
+  box-shadow: 5px 5px 9px rgba(113,122,122,.4);
+  text-shadow: 1px 7px 11px rgba(113,122,122,.2);
+}
+
+.descriptions {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 19px;
+    color: rgba(255,255,255,.85);
+    text-shadow: 5px 5px 9px rgba(113,122,122,.4);
+    margin: 0;
+    text-align: center;
+  }
+
+input {
+  background-color: #B1DDF1;
+  border: 10px;
+  border-radius: 5px;
+}
+
+*:focus {
+  outline: inherit;
+}
+
+p {
+  color: #F8C7CC;
+}
+
+.forecasts {
+  color: rgba(255,255,255,.85);
+  text-shadow: 5px 5px 9px rgba(113,122,122,.4);
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  color: rgba(255,255,255,.85);
+  text-shadow: 5px 5px 9px rgba(113,122,122,.4);
+  margin: 10px;
+}
+
+.city-error {
+  font-size: 17px;
+}
+
+
+
+@media (max-width: 500px) {
+
+}
